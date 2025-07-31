@@ -46,13 +46,18 @@ import os
 # Define the path for the new directory, including parent directories
 
 # Create the directories
-for x in range(0, 5):
-    path = f"C:\\Users\\Woochoel Shin\\Pictures\\Ezras stuff temporary\\coding\\Stemforall\\{x}"
+# for x in range(0, 5):
+#     path = f"C:\\Users\\Woochoel Shin\\Pictures\\Ezras stuff temporary\\coding\\Stemforall\\{x}"
 
-    try:
-        os.makedirs(path)
-        print(f"Folders '{path}' created successfully.")
-    except FileExistsError:
-        print(f"Folders '{path}' already exist.")
-    except OSError as e:
-        print(f"Error creating folders: {e}")
+#     try:
+#         os.makedirs(path)
+#         print(f"Folders '{path}' created successfully.")
+#     except FileExistsError:
+#         print(f"Folders '{path}' already exist.")
+#     except OSError as e:
+#         print(f"Error creating folders: {e}")
+
+num = 23
+txt = (f"2{num:04d}")
+print(int(txt) + 500)
+print(txt)
