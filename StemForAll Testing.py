@@ -56,8 +56,3 @@ import os
 #         print(f"Folders '{path}' already exist.")
 #     except OSError as e:
 #         print(f"Error creating folders: {e}")
-
-num = 23
-txt = (f"2{num:04d}")
-print(int(txt) + 500)
-print(txt)
